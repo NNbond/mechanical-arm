@@ -142,7 +142,7 @@ int main(void)
   while (1)
   { 
     //  Change_dji_loc(1,8000);
-      Change_dji_loc(1,8000);
+      pan_angle(2,720);
      // Change_dji_loc(2,8000);
 //      if(rc.sw1==0&&rc.sw2==0)
 //      {

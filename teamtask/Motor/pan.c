@@ -41,13 +41,13 @@ motor_measure_t Get_dji_information(int motor_id);
 /**************外部接口end**************/
 
 
-void pan_angle(int motor_id_3, float target3)
+void pan_angle(int motor_id_3, float target3)//改了
 {
     while (1)
     {
-    target_angle3=(target3*80/20)/360*8192;
-    Change_dji_loc(3,target_angle3);
-    motor_inf[2]= Get_dji_information(2);//
+    target_angle3=(target3)/360*8192;//???
+    Change_dji_loc(motor_id_3,target_angle3);
+//    motor_inf[2]= Get_dji_information(2);//
     if (-80<(motor_inf[3].total_angle-target_angle3)&&(motor_inf[3].total_angle-target_angle3)<80)
         {
             break;

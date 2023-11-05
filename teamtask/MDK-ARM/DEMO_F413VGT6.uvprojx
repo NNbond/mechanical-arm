@@ -337,7 +337,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F413xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;../Basic;../Communication;../Control;../Motor;../Parameter;../Sensor;../Upper_action;../MDK-ARM;../bezier;../Remote</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;../Basic;../Communication;../Control;../Motor;../Parameter;../Sensor;../Upper_action;../MDK-ARM;../bezier;../Remote;..\task</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -670,12 +670,12 @@
             <File>
               <FileName>task1.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\task1.c</FilePath>
+              <FilePath>..\task\task1.c</FilePath>
             </File>
             <File>
               <FileName>task1.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\task1.h</FilePath>
+              <FilePath>..\task\task1.h</FilePath>
             </File>
           </Files>
         </Group>

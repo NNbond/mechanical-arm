@@ -34,5 +34,5 @@ demo_f413vgt6/main.o: ../Core/Src/main.c ../Core/Inc\main.h \
   ../Control\pid.h ../Motor\dji_motor.h ../Upper_action\basic_action.h \
   ../Motor\angle.h ../Basic\basic.h ../Motor\pan.h \
   ../bezier\calculate_angle.h ../bezier\bezier.h \
-  D:\KEIL\ v5\ARM\ARMCLANG\Bin\..\include\math.h ../MDK-ARM\task1.h \
+  D:\KEIL\ v5\ARM\ARMCLANG\Bin\..\include\math.h ../task\task1.h \
   ../Remote\remote.h
